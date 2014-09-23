@@ -23,7 +23,7 @@ public class Quantity {
         return df.format(value) + " " + unit.name();
     }
 
-    private static enum Unit {
+    public static enum Unit {
         tsp(1.0d), tbs(0.3333d), cup(0.0208d), oz(0.1666d),
         pint(0.0104d), quart(0.0052d), gallon(0.0013), pound(0.0125d),
         ml(4.9289d), liter(0.0049d), mg(5687.5d), kg(0.0057d);
